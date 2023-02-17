@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="html5.png" type="image/x-icon">
+    <title>HTML lesson 7</title>
+</head>
+<body>
+    <!-- <img src="https://picsum.photos/id/1/500/600" alt=""> -->
+    <picture>
+        <source media="(max-width: 500px)" srcset="https://picsum.photos/id/1/1025/300">
+        <source media="(max-width: 1000px)" srcset="https://picsum.photos/id/1/1025/600">
+        <img src="https://picsum.photos/id/1/1025/900" alt="Human work the laptop">
+    </picture>
+
+    <!-- Семантическое связывание картинки и текста. -->
+    <figure>
+        <img src="https://picsum.photos/id/1/200/400" alt="Small Human work the laptop">
+        <figcaption>Small human work the laptop.</figcaption>
+    </figure>
+</body>
+</html>
