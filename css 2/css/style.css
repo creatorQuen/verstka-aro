@@ -1,0 +1,37 @@
+/* h1 {
+  color: black;
+}
+
+h1 {
+  color: blueviolet;
+}
+
+h1 {
+  color: red;
+} */
+
+/* ------------------------------------ */
+
+/* #block {
+  color: orange;
+}
+
+[class] {
+  color: blue;
+}
+
+h1 {
+  color: red !important;
+} */
+
+/* ------------------------------------ */
+
+/* 1 + 10 = 11 */
+h1.block {
+  color: blue;
+} 
+
+/* 10 */
+.block {
+  color: red;
+}
