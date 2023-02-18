@@ -1,0 +1,39 @@
+.line {
+  height: 20px;
+  width: 100%;
+}
+
+.title {
+  color: rgb(128,127,160);
+  font-family: serif;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.text {
+  font-size: 20px;
+  line-height: 20px;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.text-2 {
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 1px 2px 1px #6e6e6e;
+}
+
+.text-3 {
+  text-transform: uppercase;
+  text-indent: 50px;
+  letter-spacing: 5px;
+}
+
+.text-4 {
+  word-spacing: 20px;
+}
+
+.text-5 {
+  white-space: nowrap;
+  text-align: justify;
+}
