@@ -1,0 +1,32 @@
+.wrapper {
+  padding: 100px 100px 30vh;
+  height: 100vh;
+}
+
+.block {
+  height: 100%;
+  box-shadow: 0 0 10px rgb(83, 83, 83);
+  border-radius: 5px;
+}
+
+/* ------------------- */
+
+.block {
+  background: rgb(125, 200, 150);
+
+  background: linear-gradient(45deg, #7dc876, #cf5e5e 20%, #7dc876 70%);
+  background: radial-gradient(#7dc876, #cf5e5e 20%, #7dc876 70%);
+
+  background: url(../html5.png) 50px center / cover no-repeat;
+  background-attachment: fixed;
+  overflow: auto;
+
+  /* 
+  background-color: #fff;
+  background-image: url();
+  background-repeat: space;
+  background-position: x y;
+  background-attachment: scroll;
+  block-size: auto; 
+  */
+}
