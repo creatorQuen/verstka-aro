@@ -1,0 +1,42 @@
+.block, .inline {
+  font-size: 2rem;
+}
+
+.line {
+  background-color: #333;
+  height: 5px;
+  margin: 50px 0;
+}
+
+/* -------------------- */
+
+.content-1__block {
+  /* box-sizing: content-box; */
+  box-sizing: border-box;
+  background-color: rgb(190, 160, 160);
+  padding: 50px 150px 100px 10px;
+  width: 600px;
+  margin: 0 0 20px 0;
+}
+
+.content-3__block {
+  min-width: 300px;
+  max-width: 700px;
+  min-height: 300px;
+  max-height: 700px;
+  overflow: hidden;
+  display: inline;
+  border: #333;
+  box-shadow: inset 0 0 0 0 firebrick;
+  opacity: 0.6;
+  visibility: visible;
+}
+
+.content-3__inline {
+  display: block;
+}
+
+.content-3_image {
+  width: 500px;
+  height: auto;
+}
