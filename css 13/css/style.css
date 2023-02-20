@@ -1,0 +1,65 @@
+body {
+  background-color: #333;
+}
+
+.wrapper {
+  padding: 50px;
+  height: 100%;
+}
+
+.container {
+  position: relative;
+  height: 200px;
+  background-color: #444;
+}
+
+.block {
+  background-color: #fff;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+}
+
+/* -------------------------------- */
+
+.block {
+  animation: move-block 2s infinite alternate,
+  color-block 1s 3s forwards;
+
+  /* animaiton-name: ; */
+  /* animation-duration: ; */
+  /* animation-timing-function: ; */
+  /* animation-iteration-count: 3; */
+  /* animation-direction: ; */
+  /* animation-delay: 3s; */
+  /* animation-fill-mode: forwards; */
+}
+
+.block:hover {
+  animation-name: none;
+  /* animation-play-state: paused; */
+}
+
+@keyframes move-block {
+  /* from {
+
+  }
+  to {
+
+  } */
+  0% {
+    left: 0;
+  }
+  50% {
+    border-radius: 50%;
+  }
+  100% {
+    left: calc(100% - 200px);
+  }
+}
+
+@keyframes color-block {
+  100% {
+    background-color: red;
+  }
+}
